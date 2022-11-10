@@ -1,5 +1,9 @@
 # Born2beroot_42
 
+The Project Born2beroot of School 42 is aimed to teach some bases of system administration. More specifically, the goal is to setup a Virtual Machine (VM) with a Linux OS (Debian Latest or CentOS). The goal will be to learn what is a VM and how to use it, and how to setup services such as UFW, SSH and a good password policy within the OS present in the VM.
+
+More information can be found in the PDF.
+
 ## Tutorial
 
 ### Tutos made by third parties
