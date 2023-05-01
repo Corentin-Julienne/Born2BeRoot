@@ -1,16 +1,19 @@
-# Born2beroot_42
+# BORN2BEROOT
+![VM](https://img.shields.io/badge/VirtualBox-21416b?style=for-the-badge&logo=VirtualBox&logoColor=white) ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white) ![GNU](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
+<br>
+## 🗣️ About
+---
+<br>
+The Project Born2BeRoot of School 42 is aimed to teach some bases of system administration. 
 
-The Project Born2beroot of School 42 is aimed to teach some bases of system administration. More specifically, the goal is to setup a Virtual Machine (VM) with a Linux OS (Debian Latest or CentOS). The goal will be to learn what is a VM and how to use it, and how to setup services such as UFW, SSH and a good password policy within the OS present in the VM.
+More specifically, the goal is to setup a Virtual Machine (VM) with a Linux OS (Debian Latest or CentOS). The goal will be to learn what is a VM and how to use it, and how to setup services such as UFW, SSH and to add a good password policy within the OS present in the VM.
 
 More information can be found in the PDF.
-
-## Tutorial
-
-### Tutos made by third parties
-
-First, you will need to download the latest stable version of Debian. The link can be found here : https://www.debian.org/releases/stable/debian-installer/
-
-Choose the AMD64 version
+<br>
+## 🛠️ Tutorial
+---
+<br>
+First, you will need to download the latest stable version of Debian. The link can be found here : https://www.debian.org/releases/stable/debian-installer/. Choose the AMD64 version
 
 Next step will be to download Virtualbox : https://www.virtualbox.org/wiki/Downloads
 
@@ -21,27 +24,12 @@ You can go to the end of this tutorial and follow the steps to install the Debia
 NB : After changing password policies, you need to change all password for all users, root included. Check this tuto : https://ostechnix.com/how-to-set-password-policies-in-linux/ However, for some specific Debian 11 stuff, use this tutorial instead : https://www.server-world.info/en/note?os=Debian_11&p=pam&f=1
 
 If, when you launch the virtual machine (MC) for the first time, you hava an error message indicating that a kernel is not installed, follow this tutorial (in french, for MacOS) : https://azurplus.fr/comment-reparer-lerreur-kernel-driver-not-installed-rc-1908-de-virtualbox-sur-un-mac/
+<br>
+##  Bash script
+---
+<br>
 
-### some useful info
-
-In the tuto provided by baigal, the link used to get zsh does not works : write this instead : 
-```bash
-sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### setting up shared folder
-
-It is more convenient to write the script in VSC and then use it in your Debian host. You will need shared folder for this. First, enable the guest additions (link to the tutorial above). The, go to the settings of your VM, go to shared folder, add one, make it permanent and do not specify the location. It will be present at the following path : /media/ (once you reboot your Debian host). The name of the shared folder will be sf_name_of_your_folder.
-
-### check all the normal users in your Debian Host
-
-```bash
-getent passwd {1000..60000}
-```
-
-It is possible to add users, modify the password, etc. Follow this tutorial : https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/
-
-## Bash script
+This is the bash script used to display informations about the OS (check the PDF for more information). A CRON job is used to display it every 10 minutes.
 
 ```bash
 
