@@ -13,12 +13,12 @@ More information can be found in the PDF.
 ---
 <br>
 
-1️⃣ Install Debian OS last stable version on VirtualBox
-2️⃣ Create at least two virtual partitions with LVM
-3️⃣ Configure UFW to work on port 4242 only
-4️⃣ Setup a strong password policy
-5️⃣ Setup a restrictive sudo policy
-6️⃣ Setup a CRON job which display informations about the OS and the hardware (see subject PDF and Bash script below)
+1️⃣ Install Debian OS last stable version on VirtualBox <br>
+2️⃣ Create at least two virtual partitions with LVM <br>
+3️⃣ Configure UFW to work on port 4242 only <br>
+4️⃣ Setup a strong password policy <br>
+5️⃣ Setup a restrictive sudo policy <br>
+6️⃣ Setup a CRON job which display informations about the OS and the hardware (see subject PDF and Bash script below) <br>
 
 <br>
 
