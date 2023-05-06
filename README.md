@@ -4,28 +4,31 @@
 ## 🗣️ About
 ---
 <br>
-The Project Born2BeRoot of School 42 is aimed to teach some bases of system administration. 
-
-More specifically, the goal is to setup a Virtual Machine (VM) with a Linux OS (Debian Latest or CentOS). The goal will be to learn what is a VM and how to use it, and how to setup services such as UFW, SSH and to add a good password policy within the OS present in the VM.
+The Project Born2BeRoot of School 42 is aimed to teach some bases of system administration. More specifically, the goal is to setup a Virtual Machine (VM) with a Linux OS (Debian Latest or CentOS). <br>
 
 More information can be found in the PDF.
 <br>
-## 🛠️ Tutorial
+
+## 👨‍💻 Requirements
 ---
 <br>
-First, you will need to download the latest stable version of Debian. The link can be found here : https://www.debian.org/releases/stable/debian-installer/. Choose the AMD64 version
 
-Next step will be to download Virtualbox : https://www.virtualbox.org/wiki/Downloads
 
-You will need to install the guest additions in order for Virtualbox to function properly : https://linuxize.com/post/how-to-install-virtualbox-guest-additions-on-debian-10/ (also the in additionnal resources)
 
-You can go to the end of this tutorial and follow the steps to install the Debian 11 virtual machine : https://baigal.medium.com/born2beroot-e6e26dfb50ac
 
-NB : After changing password policies, you need to change all password for all users, root included. Check this tuto : https://ostechnix.com/how-to-set-password-policies-in-linux/ However, for some specific Debian 11 stuff, use this tutorial instead : https://www.server-world.info/en/note?os=Debian_11&p=pam&f=1
-
-If, when you launch the virtual machine (MC) for the first time, you hava an error message indicating that a kernel is not installed, follow this tutorial (in french, for MacOS) : https://azurplus.fr/comment-reparer-lerreur-kernel-driver-not-installed-rc-1908-de-virtualbox-sur-un-mac/
 <br>
-##  Bash script
+
+## 🛠️ Resources
+---
+<br>
+
+-> For a well made tutorial about Born2BeRoot : https://baigal.medium.com/born2beroot-e6e26dfb50ac <br>
+-> How to install Guest Additions on VirtualBox : https://linuxize.com/post/how-to-install-virtualbox-guest-additions-on-debian-10/ <br>
+-> How to set a good password policy on Debian : https://www.server-world.info/en/note?os=Debian_11&p=pam&f=1 <br>
+-> In case of error 1908 : https://azurplus.fr/comment-reparer-lerreur-kernel-driver-not-installed-rc-1908-de-virtualbox-sur-un-mac/ (in French) <br>
+
+
+## 💻 Bash script
 ---
 <br>
 
@@ -79,3 +82,8 @@ wall << Display_Script
 Display_Script
 
 ```
+
+## ✅ Validation
+
+The project has been validated with a mark of 100/100.
+
